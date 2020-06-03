@@ -32,14 +32,14 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
 Notes:-
--- If time allowed, I would have loved to made the app look better using css.
--- The user can't put negative values in the inputs, this info I am showing as a note.
--- If the user submit with any input as zero, an error would be shown.
--- I have used React, Typescript, Jest. I might have used Formik for forms and Material UI for better Application
+* If time allowed, I would have loved to made the app look better using css.
+* The user can't put negative values in the inputs, this info I am showing as a note.
+* If the user submit with any input as zero, an error would be shown.
+* I have used React, Typescript, Jest. I might have used Formik for forms and Material UI for better Application
   but it would have made the app heavy and increased the build size unnecessarily for a simple app.
--- User can either use the arrows in the input fields to set the value or can type it.
--- Generally, I make separate folders for each functionality and have tests, actions, reducers, sagas (if using       redux-saga), helpers, etc. But as here the functionality is limited, I have put all the tests in a test folder.
--- Usually, I implement small small functionalities and keep committing and pushing them the repo.
+* User can either use the arrows in the input fields to set the value or can type it.
+* Generally, I make separate folders for each functionality and have tests, actions, reducers, sagas (if using       redux-saga), helpers, etc. But as here the functionality is limited, I have put all the tests in a test folder.
+* Usually, I implement small small functionalities and keep committing and pushing them the repo.
 
 
 
