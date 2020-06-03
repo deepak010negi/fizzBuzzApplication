@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`form renders properly 1`] = `"<form><div data-test=\\"input\\" class=\\"input\\"><div>Fizz Number *:</div><input type=\\"number\\" name=\\"fizz\\" min=\\"0\\" value=\\"3\\"></div><div data-test=\\"input\\" class=\\"input\\"><div>Buzz Number *:</div><input type=\\"number\\" name=\\"buzz\\" min=\\"0\\" value=\\"5\\"></div><div data-test=\\"input\\" class=\\"input\\"><div>List Length Number *:</div><input type=\\"number\\" name=\\"listLength\\" min=\\"0\\" value=\\"15\\"></div><p class=\\"note\\">* Please enter values greater than 0 and press submit to see the FizzBuzz magic!</p><button data-test=\\"submitButton\\" type=\\"submit\\" class=\\"submitButton\\">Submit</button><div class=\\"\\"></div></form>"`;
+
+exports[`testing useFizzBuzzForm should return correct shape 1`] = `
+Object {
+  "formValues": Object {
+    "buzz": 5,
+    "fizz": 3,
+    "listLength": 15,
+  },
+  "handleSubmitForm": [Function],
+  "setFormValue": [Function],
+  "submitError": "",
+}
+`;

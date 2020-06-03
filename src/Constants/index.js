@@ -1,0 +1,1 @@
+export const PROVIDE_ALL_VALUES = 'All fields are mandatory';
